@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!Ping') {
-    	message.reply('PONG');
+    if (message.content === '!vip') {
+    	message.reply('V.I.P stojí 20 kč');
   	}
 });
 
